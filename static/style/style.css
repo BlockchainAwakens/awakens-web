@@ -29,35 +29,6 @@ body {
       transition: border-bottom .3s; }
       #top-nav #navbarNav .navbar-nav .nav-link.active {
         border-bottom-color: #e5692f; }
-  #top-nav #nav-join-btn {
-    display: block;
-    margin-top: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    width: 100%;
-    text-align: center;
-    line-height: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: #e5692f;
-    color: #ffffff;
-    transition: background .3s, color .3s; }
-    @media screen and (min-width: 769px) {
-      #top-nav #nav-join-btn {
-        margin-top: 0;
-        width: auto;
-        padding-top: 0;
-        padding-bottom: 0;
-        position: absolute;
-        right: 0;
-        height: 100%;
-        top: 0; } }
-    #top-nav #nav-join-btn:hover {
-      text-decoration: none;
-      background: #eb8a5c; }
-    #top-nav #nav-join-btn:active {
-      background: #c85119;
-      color: #f6cbb7; }
 
 #main {
   padding-top: 56px; }
@@ -341,10 +312,10 @@ body {
       #main .m-section#faq #faq-more-btn:active {
         background: #c85119;
         color: rgba(255, 255, 255, 0.7); }
-    #main .m-section#faq #faq-cat {
+    #main .m-section#faq #faq-pic {
       width: 100%;
       height: 100%;
-      background: url(../image/thinking-cat.svg) no-repeat;
+      background: url(../image/faq.jpg) no-repeat;
       background-size: cover; }
     #main .m-section#partners .row .col-sm, #main .m-section#partners .row .col-sm-3 {
       text-align: center;
