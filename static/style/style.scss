@@ -90,75 +90,10 @@ body {
             padding-top: 0;
             padding-bottom: 0;
             overflow: hidden;
-            #start-play-btn {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                left: 0;
-                top: 0;
-                z-index: 15;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                section {
-                    background: url(../image/start-pic/video.png) no-repeat center;
-                    background-size: cover;
-                    width: 230px;
-                    height: 130px;
-                    border: 2px solid $mc;
-                    box-shadow: 0 0 15px rgba(#fff, .3);
-                    color: #ffffff;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    cursor: pointer;
-                    transition: border-color .3s, box-shadow .3s;
-                    &:hover {
-                        border-color: lighten($mc, 20);
-                        box-shadow: 0 0 20px rgba(#fff, .5);
-                    }
-                    div {
-                        text-align: center;
-                        span {
-                            display: block;
-                            font-size: 12px;
-                            letter-spacing: 2px;
-                        }
-                    }
-                    &#start-play-pc {
-                        display: none;
-                        @media screen and (min-width: 768px) {
-                            display: flex;
-                        }
-                    }
-                    &#start-play-mobile {
-                        display: flex;
-                        @media screen and (min-width: 768px) {
-                            display: none;
-                        }
-                    }
-                }
-            }
-            #start-title {
-                height: 100%;
-                width: 100%;
-                background: url(../image/web-title.svg) top center no-repeat;
-                background-size: 90% auto;
-                @media screen and (min-width: 768px) {
-                    background-size: 300px auto;
-                }
-                position: absolute;
-                left: 0;
-                top: 0;
-                z-index: 10;
-            }
             #start-bg {
                 width: 100%;
                 height: 100%;
-                background: url(../image/start-pic/mobile-bg.svg) center;
-                @media screen and (min-width: 768px) {
-                    background: url(../image/start-pic/s1.png) center;
-                }
+                background: url(../image/home-bg.png) center;
                 background-size: cover;
                 position: absolute;
                 left: 0;
