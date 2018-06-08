@@ -41,38 +41,6 @@ body {
             }
         }
     }
-    #nav-join-btn {
-        display: block;
-        margin-top: 10px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        width: 100%;
-        text-align: center;
-        @media screen and (min-width: 769px) {
-            margin-top: 0;
-            width: auto;
-            padding-top: 0;
-            padding-bottom: 0;
-            position: absolute;
-            right: 0;
-            height: 100%;
-            top: 0;
-        }
-        line-height: 40px;
-        padding-left: 30px;
-        padding-right: 30px;
-        background: $mc;
-        color: #ffffff;
-        transition: background .3s, color .3s;
-        &:hover {
-            text-decoration: none;
-            background: lighten($mc, 10);
-        }
-        &:active {
-            background: darken($mc, 10);
-            color: lighten($mc, 30);
-        }
-    }
 }
 
 #main {
