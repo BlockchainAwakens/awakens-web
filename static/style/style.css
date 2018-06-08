@@ -185,14 +185,21 @@ body {
       flex-wrap: wrap;
       justify-content: space-evenly; }
       #main .m-section#system #hosts-logo #dora-logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
         padding: 5px;
         background-color: #F26F21;
         width: 300px;
         height: 60px; }
         #main .m-section#system #hosts-logo #dora-logo img {
           width: 280px; }
-      #main .m-section#system #hosts-logo #abc-logo img {
-        height: 60px; }
+      #main .m-section#system #hosts-logo #abc-logo {
+        margin-bottom: 20px; }
+        #main .m-section#system #hosts-logo #abc-logo img {
+          height: 60px; }
+      #main .m-section#system #hosts-logo .logo-container {
+        width: 40%;
+        text-align: center; }
     #main .m-section#system .m-row p {
       text-align: justify;
       line-height: 1.75; }
@@ -224,26 +231,6 @@ body {
               border-top: none; } }
     #main .m-section#system .m-row .mute {
       opacity: 0.7; }
-    #main .m-section#system .m-row #system-yes > ul {
-      color: #96ca4f; }
-    #main .m-section#system .m-row #system-no > ul {
-      color: #af272f; }
-    #main .m-section#system .m-row ul {
-      padding-left: 1em; }
-      #main .m-section#system .m-row ul li span {
-        color: #212529; }
-    #main .m-section#system #system-more-btn {
-      margin-top: 10px;
-      padding: 10px 25px;
-      background: #e5692f;
-      color: #ffffff;
-      border-radius: 0;
-      transition: background .3s, color .3s; }
-      #main .m-section#system #system-more-btn:hover {
-        background: #eb8a5c; }
-      #main .m-section#system #system-more-btn:active {
-        background: #c85119;
-        color: rgba(255, 255, 255, 0.7); }
     #main .m-section#pool #pool-money {
       background: #fafafa;
       padding: 30px;
