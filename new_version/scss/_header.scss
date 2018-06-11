@@ -89,7 +89,7 @@
                                     background: #f9f9ff;
                                     color: $light_blue;
                                 }
-                            }    
+                            }
                         }
                     }
                     &:hover{
@@ -119,9 +119,9 @@
         }
     }
     & + section{
-        margin-top: 100px;
+        margin-top: 70px;
     }
-    
+
     &.navbar_fixed{
         position: fixed;
         top: 0;

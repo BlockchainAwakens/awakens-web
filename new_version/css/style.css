@@ -204,7 +204,7 @@ button:focus {
       .header_area .navbar .search i {
         font-weight: 600; }
   .header_area + section {
-    margin-top: 100px; }
+    margin-top: 70px; }
   .header_area.navbar_fixed {
     position: fixed;
     top: 0;
