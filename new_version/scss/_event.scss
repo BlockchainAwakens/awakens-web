@@ -134,11 +134,20 @@ h3{
     }
 }
 .event_post{
+    h3 {
+        color: black;
+    }
+    h4 {
+        color: black;
+    }
+    text-align: center;
     .host-logo{
         width: 300px;
         height: 200px;
         display: flex;
+        justify-content: center;
         align-items: center;
+        margin: auto;
     }
     img{
         max-width: 100%;

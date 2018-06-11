@@ -300,7 +300,7 @@ h3 {
 /*============ donate_area css ===============*/
 .donate_area {
   background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/donate.jpg");
-  padding: 80px 0px;
+  padding: 110px 0px;
   background-size: cover; }
 
 .donate_content h2 {
@@ -355,15 +355,23 @@ h3 {
   .event_title:hover {
     color: #00c8e6; }
 
-.event_post .host-logo {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-items: center; }
-.event_post img {
-  max-width: 100%; }
-.event_post .event_category {
-  padding-bottom: 20px; }
+.event_post {
+  text-align: center; }
+  .event_post h3 {
+    color: black; }
+  .event_post h4 {
+    color: black; }
+  .event_post .host-logo {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; }
+  .event_post img {
+    max-width: 100%; }
+  .event_post .event_category {
+    padding-bottom: 20px; }
 
 .event_category li {
   padding-bottom: 8px; }
