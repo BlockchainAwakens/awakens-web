@@ -300,7 +300,7 @@ h3 {
 /*============ donate_area css ===============*/
 .donate_area {
   background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/donate.jpg");
-  padding: 110px 0px;
+  padding: 80px 0px;
   background-size: cover; }
 
 .donate_content h2 {
