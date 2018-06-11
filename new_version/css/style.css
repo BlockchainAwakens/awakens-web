@@ -299,7 +299,7 @@ h3 {
 
 /*============ donate_area css ===============*/
 .donate_area {
-  background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/donate.jpg");
+  background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8));
   padding: 110px 0px;
   background-size: cover; }
 
@@ -1685,7 +1685,7 @@ h1, h2, h3, h4, h5, h6 {
 /*============== footer-area css ===============*/
 .footer-area {
   background: #04091e;
-  padding: 60px 0px; }
+  padding: 142px 0px; }
 
 .single-footer-widget p {
   margin-bottom: 0px; }
