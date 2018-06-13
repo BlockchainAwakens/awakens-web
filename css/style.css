@@ -46,9 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 button:focus {
   outline: none; }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1170px; } }
+.container {
+  margin: auto; }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px; } }
 
 .section_gap {
   padding: 120px 0px; }
@@ -299,7 +301,7 @@ h3 {
 
 /*============ donate_area css ===============*/
 .donate_area {
-  background: #2766c5;
+  background: #ffffff;
   padding: 0px;
   margin: 0px;
   width: 100%;
