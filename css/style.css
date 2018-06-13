@@ -412,7 +412,7 @@ h3 {
 /*============ banner_area css =============*/
 .banner_area {
   min-height: 680px;
-  background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
+  background: linear-gradient(to right, rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../image/home-bg.jpg");
   background-size: cover; }
 
 .banner_content {
