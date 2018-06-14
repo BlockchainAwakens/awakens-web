@@ -261,6 +261,11 @@ button:focus {
     margin-bottom: 0px; }
     .evet_location p span {
       padding-right: 12px; }
+  .evet_location a {
+    color: white;
+    margin-bottom: 0px; }
+    .evet_location a span {
+      padding-right: 12px; }
 
 .event_time {
   color: #fff;
