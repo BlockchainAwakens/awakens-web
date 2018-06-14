@@ -1,10 +1,7 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date();
-
-// set date to 10 days in the future for testing purposes
-timer.countdownDate.setDate( timer.countdownDate.getDate() + 10 );
+timer.countdownDate = new Date("Sat Jul 28 2018 08:00:00 GMT-0700");
 
 /*
 * Get thing started
