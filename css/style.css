@@ -310,8 +310,120 @@ h3 {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  background-size: cover; }
+  background-size: cover; 
+  font-weight: 600;
+}
+.donate_area .donate_area_one{
+  height: 300px;
+  position:relative;
+  padding:0;
+  font-size:48px;
+}
+.donate_area .donate_area_one div{
+  height:100%;
+  line-height:300px;
+  overflow:hidden;
+}
+.donate_area .donate_area_one div.l{
+  width:70%;
+  float:left;
+  text-align:right;
+  background:#00c8e6;
+  color:#4d4d4d;
+}
+.donate_area .donate_area_one div.r{
+  width:30%;
+  float:right;
+  background:#666666;
+  color:#f2f2f2;
+}
 
+.donate_area .prize_one{
+  height:220px;
+  line-height:220px;
+  padding:0;
+  font-size:48px;
+}
+.donate_area .prize_one div.l{
+  width:70%;
+  float:left;
+  text-align:right;
+  background:#00c8e6;
+  color:#4d4d4d;
+}
+.donate_area .prize_one div.r{
+  width:30%;
+  float:right;
+  background:#666666;
+  color:#f2f2f2;
+}
+.donate_area .prize_two{
+  height:220px;
+  background:#00c8e6;
+  position:relative;
+}
+.donate_area .prize_two div{
+  position: absolute;
+  right:0;
+  top: 50%;
+  width:80%;
+  padding:0 10px;
+  color:#4d4d4d;
+  transform: translateY(-50%);
+}
+.donate_area .donate_area_left{
+  background: #666;
+  color: #fff;
+  height: 300px;
+  position:relative;
+  text-align:right;
+
+}
+.donate_area .donate_area_left div{
+  position: absolute;
+  right:0;
+  top: 50%;
+  width:80%;
+  padding:0 10px;
+  transform: translateY(-50%);
+}
+
+.donate_area .donate_area_left h3{
+  color: #fff;
+}
+.donate_area .donate_area_right{
+  background: #00c8e6;
+  color: #4d4d4d;
+  height: 300px;
+  position:relative;
+}
+.donate_area .donate_area_right h3{
+  color: #4d4d4d;
+}
+.donate_area .donate_area_right div{
+  position: absolute;
+  top:50%;
+  left:0;
+  width:80%;
+  padding:0 10px;
+  transform: translateY(-50%);
+}
+.hosts_box .hosts_word img{
+  height:250px;
+}
+.hosts_box .hosts_word {
+  text-align:center;
+}
+.hosts_word p{
+  padding:0 1%;
+}
+.donate_area .prize_img{
+  width:100px;
+  margin-right:20px;
+}
+.donate_area .section_word{
+  text-align:center;
+}
 .donate_content h2 {
   font-weight: 600;
   font-size: 36px;

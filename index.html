@@ -123,8 +123,29 @@
 
         <!--================Agenda Area=================-->
         <section id="agenda" class="donate_area">
-            <div class="container" style="margin: auto;">
-                <img class="modelImgChange" data-url="image/agenda_01.png" src="image/agenda.png" style="width: 100%; height: auto">
+            <div class="container" >
+                <div class="row" style="padding:0 15px;">
+                    <div class="col-md-4 donate_area_one">
+                        <div class="l">AGEN</div>
+                        <div class="r">DA</div>
+                    </div><div class="col-md-4 donate_area_left">
+                        <div class="">
+                            <h3 class="title_color">7/28/18</h3>
+                            <p>10AM Check-in + social starts</p>
+                            <p>11AM Opening Keynotes + announcements</p>
+                            <p>12PM Hackathon offcial starts</p>
+                            <p>6PM Dinner & guest performance</p>
+                        </div>
+                    </div><div class="col-md-4 donate_area_right">
+                        <div class="">
+                            <h3 class="title_color">7/29/18</h3>
+                            <p>12PM Haclathon offcially ends</p>
+                            <p>12PM - 4Pm Demo falrs & career falrs [open to anyone with ticket]</p>
+                            <p>4PM Award & celebration</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img class="modelImgChange" data-url="image/agenda_01.png" src="image/agenda.png" style="width: 100%; height: auto"> -->
             </div>
         </section>
         <!--================Agenda Area=================-->
@@ -136,16 +157,45 @@
                     <h2>Who we are</h2>
                     <p>We are professional teams with great experience in both blockchain and hackathon</p>
                 </div>
-                <img class="modelImgChange" data-url="image/host_03.png" src="image/host.png" style="width: 80%; height: auto; display: block; margin: auto">
+                <div class="row hosts_box">
+                    <div class="col-md-4 hosts_word" style="padding-top:50px;">
+                        <h1 class="title_color" style="color:#999;">CO-HOST</h3>
+                        <img src="image/host2.png" style="height:200px;">
+                        <p>CPC is devoted to connecting early stage startups with the top VCs and CVCs in the Silicon Valley,</p>
+                    </div>
+                    <div class="col-md-4 hosts_word">
+                        <h1 class="title_color">HOST</h3>
+                        <img src="image/host1.png">
+                        <p>ABC Blockchain Community was formed by a group of engineers, researchers,financial professionals,entreprenturs and blockchain enthusiasts who dedicated to blockchain techology advancement</p>
+                    </div>
+                    <div class="col-md-4 hosts_word" style="padding-top:50px;">
+                        <h1 class="title_color" style="color:#999;">CO-HOST</h3>
+                        <img src="image/host3.png" style="height:200px;">
+                        <p>DoraHacks is a global hackthon organizer and hacker organization to connect hackers around the world.</p>
+                    </div>
+                </div>
+                <!-- <img class="modelImgChange" data-url="image/host_03.png" src="image/host.png" style="width: 80%; height: auto; display: block; margin: auto"> -->
             </div>
         </section>
         <!--================Hosts Area=================-->
 
         <!--================Prize Area=================-->
         <section id="prize" class="donate_area">
-            <div class="container" style="margin: auto;">
-                <img class="modelImgChange" data-url="image/prize_04.png" src="image/prize.png" style="width: 100%; height: auto;">
+            <div class="container" >
+                <div class="row" style="padding:0 15px;">
+                    <div class="col-md-6 prize_one">
+                        <div class="l"><img class="prize_img" src="image/coin.svg">PRI</div>
+                        <div class="r">ZE</div>
+                    </div>
+                    <div class="col-md-6 prize_two">
+                        <div class="">
+                            <h3>Two Bitconins shared between all</h3>
+                            <h3>winners with special topoic prize</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </section>
         <!--================Prize Area=================-->
 
@@ -243,9 +293,10 @@
             var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
             var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
             if ((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-                $(".modelImgChange").each(function(){
-                    $(this).attr("src",$(this).attr("data-url"))
-                })
+                $(".hosts_box").prepend($(".hosts_box").find(".hosts_word").eq(1))
+                $(".donate_area_one").find("div").css("width","55%").eq(1).css("width","45%")
+                $(".donate_area_left").css("text-align","left")
+                $(".donate_area_right").css("text-align","right")
             }
         }
         browserRedirect();
