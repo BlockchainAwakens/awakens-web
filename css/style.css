@@ -53,7 +53,8 @@ button:focus {
       max-width: 1170px; } }
 
 .section_gap {
-  padding: 120px 0px; }
+  padding: 120px 0px 0px 0px;
+}
 
 .section_title {
   margin-bottom: 50px; }
@@ -71,9 +72,6 @@ button:focus {
 
 .d_flex {
   display: flex; }
-
-.section_gap {
-  padding: 120px 0; }
 
 .row_reverse {
   flex-direction: row-reverse; }
@@ -307,10 +305,10 @@ h3 {
 /*============ donate_area css ===============*/
 .donate_area {
   background: #ffffff;
-  padding: 0px;
+  padding: 120px 0px 0px 0px;
   margin: 0px;
   width: 100%;
-  background-size: cover; 
+  background-size: cover;
   font-weight: 600;
 }
 .donate_area .donate_area_one{
@@ -377,7 +375,6 @@ h3 {
   height: 300px;
   position:relative;
   text-align:right;
-
 }
 .donate_area .donate_area_left div{
   position: absolute;
@@ -424,6 +421,7 @@ h3 {
 .donate_area .section_word{
   text-align:center;
 }
+
 .donate_content h2 {
   font-weight: 600;
   font-size: 36px;
