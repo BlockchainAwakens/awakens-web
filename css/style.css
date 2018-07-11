@@ -414,6 +414,16 @@ h3 {
 .hosts_word p{
   padding:0 1%;
 }
+
+.partners_unit {
+  padding-top: 50px;
+}
+
+.profile_image {
+  height:200px;
+  margin-bottom: 20px;
+}
+
 .donate_area .prize_img{
   width:100px;
   margin-right:20px;
