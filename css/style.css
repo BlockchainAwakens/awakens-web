@@ -411,6 +411,9 @@ h3 {
 .hosts_box .hosts_word {
   text-align:center;
 }
+#judges img {
+  border-radius: 50%;
+}
 .hosts_word p{
   padding:0 1%;
 }
