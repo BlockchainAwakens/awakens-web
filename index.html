@@ -250,7 +250,6 @@
         <!--================Speakers Area=================-->
 
 
-
         <!--================Hosts Area=================-->
         <section id="hosts" class="event_blog_area section_gap">
             <div class="container">
@@ -258,18 +257,18 @@
                     <h2>Who we are</h2>
                     <p>We are organizations with deep roots in blockchain communities</p>
                 </div>
-                <div class="row hosts_box">
-                    <div class="col-md-4 hosts_word" style="padding-top:50px;">
+                <div id="host-section" class="row hosts_box">
+                    <div class="col-md-4 hosts_word hosts_title" style="padding-top:50px;">
                         <h3 class="title_color" style="color:#999;">CO-HOST</h3>
                         <img src="image/host2.png" style="height:200px;">
                         <p>CPC is devoted to connecting early stage startups with the top VCs and CVCs in the Silicon Valley</p>
                     </div>
-                    <div class="col-md-4 hosts_word">
+                    <div class="col-md-4 hosts_word hosts_title">
                         <h3 class="title_color">HOST</h3>
                         <img src="image/host1.png">
                         <p>ABC Blockchain Community is a group of engineers, researchers, financial professionals, entrepreneurs and blockchain enthusiasts who are dedicated to blockchain techology advancement</p>
                     </div>
-                    <div class="col-md-4 hosts_word" style="padding-top:50px;">
+                    <div class="col-md-4 hosts_word hosts_title" style="padding-top:50px;">
                         <h3 class="title_color" style="color:#999;">CO-HOST</h3>
                         <img src="image/host3.png" style="height:200px;">
                         <p>DoraHacks is a global hackthon organizer to connect hackers around the world</p>
@@ -286,7 +285,7 @@
                 <div class="section_title text-center" style="margin-bottom:0px;">
                     <h2>Partners</h2>
                 </div>
-                <div class="row">
+                <div class="row hosts_box">
                     <div class="col-md-3 image_container">
                         <img src="image/partners/bab.png" class="profile_image partner_image">
                     </div>
@@ -392,7 +391,7 @@
             var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
             var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
             if ((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-                $(".hosts_box").prepend($(".hosts_box").find(".hosts_word").eq(1))
+                $(".host-section").prepend($(".host-section").find(".hosts_title").eq(1))
                 $(".donate_area_one").find("div").css("width","55%").eq(1).css("width","45%")
                 $(".donate_area_left").css("text-align","left")
                 $(".donate_area_right").css("text-align","right")
