@@ -53,7 +53,7 @@ button:focus {
       max-width: 1170px; } }
 
 .section_gap {
-  padding: 120px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 }
 
 .section_title {
@@ -305,7 +305,7 @@ h3 {
 /*============ donate_area css ===============*/
 .donate_area {
   background: #ffffff;
-  padding: 120px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
   margin: 0px;
   width: 100%;
   background-size: cover;
