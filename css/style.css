@@ -434,11 +434,13 @@ h3 {
 }
 
 .small_image {
-  max-height: 100px;
+  max-height: 150px;
+  padding: 30px;
 }
 
 .mid_image {
-  max-height: 150px;
+  max-height: 200px;
+  padding: 30px;
 }
 
 .partner_image {
