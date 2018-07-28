@@ -578,6 +578,26 @@ h3 {
   .banner_content .btn_hover_two {
     margin-top: 25px; }
 
+.meetup_area {
+  min-height: 680px;
+  background: linear-gradient(to right, rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  background-size: cover; }
+
+.meetup_content {
+  color: #fff; }
+  .meetup_content h6 {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .meetup_content h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    padding: 8px 0px 20px; }
+  .meetup_content .btn_hover_two {
+    margin-top: 25px; }
+
 /*=============Blog Banner css =============*/
 .blog_banner {
   min-height: 680px;
