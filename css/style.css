@@ -598,6 +598,108 @@ h3 {
   .meetup_content .btn_hover_two {
     margin-top: 25px; }
 
+.schedule_area {
+  min-height: 630px;
+  background: white;
+  background-size: cover; 
+}
+
+.agenda_area {
+  min-height: 630px;
+  background: white;
+  background-size: cover; 
+  padding-bottom: 50px;
+}
+
+.meetup_title {
+  font-size: 40px;
+  font-family: Arial;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects_row {
+  padding-top: 80px;
+}
+
+.meetup_project {
+  margin:20px;
+  display: inline-block;
+}
+
+.schedule_image {
+  width: 90px;
+  height: 90px;
+}
+
+.schedule_info {
+  padding-top: 40px;
+  padding-left: 10px;
+  text-align: center;
+  margin-left: auto;
+}
+  .entry {
+    font-size: 12px;
+  }
+
+.vertical-line{
+  margin-top: 60px;
+  border-left: 1px solid;
+  background-color:#D5D5D5;
+  color:#D5D5D5;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1px;
+}
+
+.circle {
+  margin: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.line {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  top: -170px;
+}
+
+.agenda_row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.agenda_left {
+  padding-top: 30px;
+  display: inline-block;
+  margin: 50px;
+  height: 450px;
+  width: 300px;
+  background: #DCDCDC;
+}
+
+.agenda_right {
+  padding-top: 30px;
+  display: inline-block;
+  margin: 50px;
+  height: 450px;
+  width: 300px;
+  background: #DCDCDC;
+  top: 50px;
+  position: relative;
+}
+
+.agenda_title {
+  padding-left: 30px;
+  text-align: left;
+}
+
 /*=============Blog Banner css =============*/
 .blog_banner {
   min-height: 680px;
