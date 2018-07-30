@@ -579,7 +579,7 @@ h3 {
     margin-top: 25px; }
 
 .meetup_area {
-  min-height: 680px;
+  min-height: 300px;
   background: linear-gradient(to right, rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../image/home-bg.jpg");
   background-size: cover; }
 
@@ -668,20 +668,22 @@ h3 {
 
 .agenda_left {
   padding-top: 30px;
+  padding-bottom: 30px;
   display: inline-block;
   margin: 50px;
   width: 300px;
+  top: 20px;
   background: #DCDCDC;
   position: relative;
 }
 
 .agenda_right {
   padding-top: 30px;
+  padding-bottom: 30px;
   display: inline-block;
   margin: 50px;
   width: 300px;
   background: #DCDCDC;
-  top: 50px;
   position: relative;
 }
 
