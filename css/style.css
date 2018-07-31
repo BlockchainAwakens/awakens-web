@@ -599,7 +599,7 @@ h3 {
     margin-top: 25px; }
 
 .schedule_area {
-  min-height: 530px;
+  min-height: 730px;
   background: white;
   background-size: cover; 
 }
@@ -608,7 +608,6 @@ h3 {
   min-height: 630px;
   background: white;
   background-size: cover; 
-  padding-bottom: 50px;
 }
 
 .meetup_title {
