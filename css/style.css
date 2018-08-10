@@ -676,6 +676,49 @@ h3 {
   position: relative;
 }
 
+.result_left {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  margin: 50px;
+  width: 350px;
+  height: 500px;
+  background: #AFEEEE;
+  position: relative;
+}
+
+.result_right {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  margin: 50px;
+  width: 350px;
+  position: relative;
+}
+
+.result_title {
+  font-size: 50px;
+  font-family: cursive;
+  padding-top: 60px;
+}
+
+.project_platform {
+  padding: 40px 25px 25px 25px;
+  font-size: 16px;
+}
+
+.project_title {
+  font-size: 30px;
+  font-family: Helvetica;
+  padding: 20px 80px 20px 80px;
+}
+
+.project_description {
+  padding: 20px 200px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
 .agenda_right {
   padding-top: 30px;
   padding-bottom: 30px;
