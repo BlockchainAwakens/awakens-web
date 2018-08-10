@@ -679,9 +679,9 @@ h3 {
 .result_row {
   margin-left: auto;
   margin-right: auto;
-  background-color: #AFEEEE;
+  background-color: #F0FFFF;
   margin: 30px 120px 30px 120px;
-  border: 5px double #6495ED;
+  border: 10px double #F0F8FF;
 }
 
 .result_left {
@@ -706,7 +706,7 @@ h3 {
 
 .result_title {
   font-size: 50px;
-  font-family: cursive;
+  font-family: Comic Sans MS;
   padding-top: 60px;
 }
 
