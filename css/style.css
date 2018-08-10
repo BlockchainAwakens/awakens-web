@@ -2067,6 +2067,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #333333;
   margin-top: 30px; }
 
+.table {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .footer-bottom {
   padding-top: 46px; }
   .footer-bottom .footer-text a {
