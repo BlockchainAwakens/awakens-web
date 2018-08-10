@@ -676,6 +676,14 @@ h3 {
   position: relative;
 }
 
+.result_row {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #AFEEEE;
+  margin: 30px 120px 30px 120px;
+  border: 5px double #6495ED;
+}
+
 .result_left {
   padding-top: 30px;
   padding-bottom: 30px;
