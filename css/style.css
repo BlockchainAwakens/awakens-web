@@ -607,7 +607,8 @@ h3 {
 .agenda_area {
   min-height: 630px;
   background: white;
-  background-size: cover; 
+  background-size: cover;
+  font-size: 18px; 
 }
 
 .meetup_title {
@@ -705,7 +706,13 @@ h3 {
   position: relative;
 }
 
-.result_title {
+/*.result_title {
+  font-size: 50px;
+  font-family: Comic Sans MS;
+  padding-top: 60px;
+}
+*/
+.team_title {
   font-size: 50px;
   font-family: Comic Sans MS;
   padding-top: 60px;
@@ -726,7 +733,7 @@ h3 {
 .project_description {
   padding: 20px 200px;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .agenda_right {
